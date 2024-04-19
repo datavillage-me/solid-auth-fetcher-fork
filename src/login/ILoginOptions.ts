@@ -26,8 +26,8 @@ import URL from "url-parse";
 
 export default interface ILoginOptions {
   sessionId: string;
-  oidcIssuer?: URL;
-  redirectUrl?: URL;
+  oidcIssuer?: URL<{}>;
+  redirectUrl?: URL<{}>;
   clientId?: string;
   clientSecret?: string;
   clientName?: string;
